@@ -19,3 +19,8 @@ $ docker-compose down
 ```
 $ docker-compose down --volumes
 ```
+
+## How to connect (Mac OS X)
+```
+SENSITIVE_DATABASE_CONNECTIONS_MYSQL_HOST=host.docker.internal
+```
